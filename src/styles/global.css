@@ -1,0 +1,23 @@
+body {
+  background-color: #F5F8FA
+}
+
+.mySwiper {
+  width: 100%;
+  min-height: 250px;
+  max-height: 450px;
+}
+
+.swiper-button-next, .swiper-button-prev  {
+  color: #FFBA08
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #FFBA08
+}
+
+.swiperSlide {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}

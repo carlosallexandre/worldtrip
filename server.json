@@ -1,0 +1,80 @@
+{
+  "continents": [
+    { 
+      "id": 1, 
+      "slug": "america_do_norte",
+      "name": "América do Norte", 
+      "summarize": "O segundo maior",
+      "bannerImg": "https://source.unsplash.com/VMNG8BYFQfs/1280x450",
+      "articleImg": "https://source.unsplash.com/304R7qkgHe8/1600x900",
+      "description": "A América do Norte é um subcontinente do continente americano, também formado pela América Central e América do Sul. A região limita-se ao leste com o oceano Atlântico, a oeste com o oceano Pacífico, ao norte com o oceano Ártico e ao sul com a América Central e o Caribe.",
+      "countries": 23,
+      "languages": 3
+    },
+    { 
+      "id": 2, 
+      "slug": "america_do_sul",
+      "name": "América do Sul", 
+      "summarize": "Continente tropical",
+      "bannerImg": "https://source.unsplash.com/7F65HDP0-E0/1280x450",
+      "articleImg": "https://source.unsplash.com/y3Rq2Kh59qU/1600x900",
+      "description": "A América do Sul está localizada em grande parte no hemisfério sul, na zona intertropical ocidental. A América do Sul abrange um território de 18 milhões de quilômetros quadrados e é banhada a leste pelo oceano Atlântico, a oeste pelo oceano Pacífico e ao norte pelo mar das Antilhas, conhecido como do Caribe.",
+      "countries": 12,
+      "languages": 9
+    },
+    { 
+      "id": 3, 
+      "slug": "asia",
+      "name": "Ásia",
+      "summarize" : "O maior do planeta",
+      "bannerImg": "https://source.unsplash.com/J_C3_JpJMms/1280x450",
+      "articleImg": "https://source.unsplash.com/n--CMLApjfI/1600x900",
+      "description": "A Ásia é o maior dos continentes, tanto em área como em população. Abrange um terço das partes sólidas da superfície da Terra e é responsável por abrigar quase três quintos da população mundial." ,
+      "countries": 50,
+      "languages": 7
+    },
+    { 
+      "id": 4, 
+      "slug": "africa",
+      "name": "África", 
+      "summarize": "O berço do rio Nilo",
+      "bannerImg": "https://source.unsplash.com/wdMWMHXUpsc/1280x450",
+      "articleImg": "https://source.unsplash.com/kfxEUCTUeyg/1680x900",
+      "description": "A África é o terceiro continente mais extenso com cerca de 30 milhões de quilômetros quadrados, cobrindo 20,3% da área total da terra firme do planeta. É o segundo continente mais populoso da Terra com cerca de um bilhão de pessoas, representando cerca de um sétimo da população mundial, e 54 países independentes." ,
+      "countries": 54,
+      "languages": 2000
+    },
+    { 
+      "id": 5, 
+      "slug": "europa",
+      "name": "Europa",
+      "summarize": "O continente mais antigo",
+      "bannerImg" : "https://source.unsplash.com/q140lHKzXZY/1280x450",
+      "articleImg": "https://source.unsplash.com/EXdXLrZXS9Q/1600x900",
+      "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
+      "countries": 50,
+      "languages": 24
+    },
+    { 
+      "id": 6, 
+      "slug": "oceania",
+      "name": "Oceania",
+      "summarize": "O menor do planeta",
+      "bannerImg": "https://source.unsplash.com/6LEEmK68fa4/1280x450",
+      "articleImg": "https://source.unsplash.com/x_H-9suOpck/1600x900",
+      "description": "A Oceania é o menor continente do mundo. Localizado no hemisfério sul, é composto pela Austrália e pelas Ilhas do Pacífico (Polinésia, Melanésia e Micronésia).",
+      "countries": 10,
+      "languages": 18
+    }
+  ],
+
+  "citys": [
+    {
+      "id": 1,
+      "name": "Londres",
+      "country": "Reino Unido",
+      "imgUrl": "http://source.unsplash.com/{ID}/{RESOLUTION}",
+      "continentId": 5
+    }
+  ]
+}

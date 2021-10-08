@@ -1,0 +1,7 @@
+export { AirplaneIcon } from './Airplane'
+export { BuildingIcon } from './Building'
+export { CocktailIcon } from './Cocktail'
+export { ChevronLeftIcon } from './ChevronLeft'
+export { EarthIcon } from './Earth'
+export { MuseumIcon } from './Museum'
+export { SurfIcon } from './Surf'
