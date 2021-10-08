@@ -71,37 +71,352 @@
   "cities": [
     {
       "id": 1,
+      "name": "Hong Kong",
+      "country": { "name": "Honk Kong", "code": "HK" },
+      "img": "https://source.unsplash.com/YmvYdFU4LvE/256x175",
+      "continentId": 3
+    },
+    {
+      "id": 2,
+      "name": "Bangkok",
+      "country": { "name": "Tailândia", "code": "TH" },
+      "img": "https://source.unsplash.com/8aSAEuPHg-o/256x175",
+      "continentId": 3
+    },
+    {
+      "id": 3,
       "name": "Londres",
       "country": { "name": "Reino Unido", "code": "GB" },
       "img": "https://source.unsplash.com/4ZuEeZDH37E/256x175",
       "continentId": 5
     },
     {
-      "id": 2,
+      "id": 4,
+      "name": "Macau",
+      "country": { "name": "Macau", "code": "MA" },
+      "img": "https://source.unsplash.com/9hdn4bjpmgM/256x175",
+      "continentId": 3
+    },
+    {
+      "id": 5,
+      "name": "Singapura",
+      "country": { "name": "Singapura", "code": "SG" },
+      "img": "https://source.unsplash.com/hlAf6xgTsJ0/256x175",
+      "continentId": 3
+    },
+    {
+      "id": 6,
       "name": "Paris",
       "country": { "name": "França", "code": "FR" },
       "img": "https://source.unsplash.com/QAwciFlS1g4/256x175",
       "continentId": 5
     },
     {
-      "id": 3,
-      "name": "Praga",
-      "country": { "name": "Republica Tcheca", "code": "CZ" },
-      "img": "https://source.unsplash.com/t3xftjxc2uU/256x175",
-      "continentId": 5
+      "id": 7,
+      "name": "Dubai",
+      "country": { "name": "Emirados Árabaes Unidos", "code": "AR" },
+      "img": "https://source.unsplash.com/7tb-b37yHx4/256x175",
+      "continentId": 3
     },
     {
-      "id": 4,
+      "id": 8,
+      "name": "Nova York",
+      "country": { "name": "Estados Unidos", "code": "US" },
+      "img": "https://source.unsplash.com/SVVTZtTGyaU/256x175",
+      "continentId": 1
+    },
+    {
+      "id": 9,
+      "name": "Kuala Lumpur",
+      "country": { "name": "Malásia", "code": "MY" },
+      "img": "https://source.unsplash.com/WG-hXR1rLNk/256x175",
+      "continentId": 3
+    },
+    {
+      "id": 10,
+      "name": "Istambul",
+      "country": { "name": "Turquia", "code": "TR" },
+      "img": "https://source.unsplash.com/9ue8Ea4Gp1M/256x175",
+      "continentId": 3
+    },
+    {
+      "id": 11,
+      "name": "Delhi",
+      "country": { "name": "Índia", "code": "IN" },
+      "img": "https://source.unsplash.com/XjKaPInYVCM/256x175",
+      "continentId": 3
+    },
+    {
+      "id": 12,
+      "name": "Antalya",
+      "country": { "name": "Turquia", "code": "TR" },
+      "img": "https://source.unsplash.com/Hs1tXq1g4kQ/256x175",
+      "continentId": 3
+    },
+    {
+      "id": 13,
+      "name": "Shenzhen",
+      "country": { "name": "China", "code": "CH" },
+      "img": "https://source.unsplash.com/xQdUIo_MSQ4/256x175",
+      "continentId": 3
+    },
+    {
+      "id": 14,
+      "name": "Mumbai",
+      "country": { "name": "Índia", "code": "IN" },
+      "img": "https://source.unsplash.com/J4Ui2ch3oRU/256x175",
+      "continentId": 3
+    },
+    {
+      "id": 15,
+      "name": "Phuket",
+      "country": { "name": "Tailândia", "code": "TH" },
+      "img": "https://source.unsplash.com/Of_u2aPwugw/256x175",
+      "continentId": 3
+    },
+    {
+      "id": 16,
       "name": "Roma",
       "country": { "name": "Itália", "code": "IT" },
       "img": "https://source.unsplash.com/LUdSrJw-BII/256x175",
       "continentId": 5
     },
     {
-      "id": 5,
+      "id": 17,
+      "name": "Tokyo",
+      "country": { "name": "Japão", "code": "JP" },
+      "img": "https://source.unsplash.com/4HG5hlhmZg8/256x175",
+      "continentId": 3
+    },
+    {
+      "id": 18,
+      "name": "Pattaya",
+      "country": { "name": "Tailândia", "code": "TH" },
+      "img": "https://source.unsplash.com/DcT8PX2WTN8/256x175",
+      "continentId": 3
+    },
+    {
+      "id": 19,
+      "name": "Taipé",
+      "country": { "name": "Taiwan", "code": "TW" },
+      "img": "https://source.unsplash.com/au3CYbd7vCU/256x175",
+      "continentId": 3
+    },
+    {
+      "id": 20,
+      "name": "Guangzhou",
+      "country": { "name": "China", "code": "CH" },
+      "img": "https://source.unsplash.com/Uakg46j_y7Q/256x175",
+      "continentId": 3
+    },
+    {
+      "id": 21,
+      "name": "Praga",
+      "country": { "name": "Republica Tcheca", "code": "CZ" },
+      "img": "https://source.unsplash.com/t3xftjxc2uU/256x175",
+      "continentId": 5
+    },
+    {
+      "id": 22,
+      "name": "Medina",
+      "country": { "name": "Arábia Saúdita", "code": "SA" },
+      "img": "https://source.unsplash.com/yLW1yzCK2HY/256x175",
+      "continentId": 3
+    },
+    {
+      "id": 23,
+      "name": "Seoul",
+      "country": { "name": "Coréia do Sul", "code": "KO" },
+      "img": "https://source.unsplash.com/p_D5pbQG5TE/256x175",
+      "continentId": 3
+    },
+    {
+      "id": 24,
+      "name": "Mecca",
+      "country": { "name": "Arábia Saúdita", "code": "SA" },
+      "img": "https://source.unsplash.com/W0FhhtnMd8k/256x175",
+      "continentId": 3
+    },
+    {
+      "id": 25,
       "name": "Amsterdã",
       "country": { "name": "Holanda", "code": "NL" },
       "img": "https://source.unsplash.com/KaG9YKPK5a8/256x175",
+      "continentId": 5
+    },
+    {
+      "id": 26,
+      "name": "Agra",
+      "country": { "name": "Índia", "code": "IN" },
+      "img": "https://source.unsplash.com/iWMfiInivp4/256x175",
+      "continentId": 3
+    },
+    {
+      "id": 27,
+      "name": "Miami",
+      "country": { "name": "Estados Unidos", "code": "US" },
+      "img": "https://source.unsplash.com/Um9AkOiIDcU/256x175",
+      "continentId": 1
+    },
+    {
+      "id": 28,
+      "name": "Osaka",
+      "country": { "name": "Japão", "code": "JP" },
+      "img": "https://source.unsplash.com/dvBD4UvobSw/256x175",
+      "continentId": 3
+    },
+    {
+      "id": 29,
+      "name": "Los Angeles",
+      "country": { "name": "Estados Unidos", "code": "US" },
+      "img": "https://source.unsplash.com/cR05i3WgRlQ/256x175",
+      "continentId": 1
+    },
+    {
+      "id": 30,
+      "name": "Shangai",
+      "country": { "name": "China", "code": "CH" },
+      "img": "https://source.unsplash.com/naOfJ3DlfPM/256x175",
+      "continentId": 3
+    },
+    {
+      "id": 31,
+      "name": "Ho Chi Minh City",
+      "country": { "name": "Vietnã", "code": "VN" },
+      "img": "https://source.unsplash.com/MjYzuyjPUFo/256x175",
+      "continentId": 3
+    },
+    {
+      "id": 32,
+      "name": "Denpasar",
+      "country": { "name": "Indonésia", "code": "ID" },
+      "img": "https://source.unsplash.com/QqPcxfFKqfU/256x175",
+      "continentId": 3
+    },
+    {
+      "id": 33,
+      "name": "Barcelona",
+      "country": { "name": "Espanha", "code": "ES" },
+      "img": "https://source.unsplash.com/WBGjg0DsO_g/256x175",
+      "continentId": 5
+    },
+    {
+      "id": 34,
+      "name": "Las Vegas",
+      "country": { "name": "Estados Unidos", "code": "US" },
+      "img": "https://source.unsplash.com/uxU_jyu9e7U/256x175",
+      "continentId": 1
+    },
+    {
+      "id": 35,
+      "name": "Milan",
+      "country": { "name": "Itália", "code": "IT" },
+      "img": "https://source.unsplash.com/0xe2FGo7Vc0/256x175",
+      "continentId": 5
+    },
+    {
+      "id": 36,
+      "name": "Chennai",
+      "country": { "name": "Indía", "code": "IN" },
+      "img": "https://source.unsplash.com/t4i7tO0SXjY/256x175",
+      "continentId": 3
+    },
+    {
+      "id": 37,
+      "name": "Vienna",
+      "country": { "name": "Áustria", "code": "AU" },
+      "img": "https://source.unsplash.com/5SjAaqqCCmY/256x175",
+      "continentId": 5
+    },
+    {
+      "id": 38,
+      "name": "Johor Bahru",
+      "country": { "name": "Malásia", "code": "MY" },
+      "img": "https://source.unsplash.com/mLJvhZgXkuM/256x175",
+      "continentId": 3
+    },
+    {
+      "id": 39,
+      "name": "Jaipur",
+      "country": { "name": "Índia", "code": "IN" },
+      "img": "https://source.unsplash.com/VPCYuUKkWFw/256x175",
+      "continentId": 3
+    },
+    {
+      "id": 40,
+      "name": "Cancun",
+      "country": { "name": "México", "code": "ME" },
+      "img": "https://source.unsplash.com/mzEyEp3syMI/256x175",
+      "continentId": 1
+    },
+    {
+      "id": 41,
+      "name": "Berlin",
+      "country": { "name": "Alemanha", "code": "DE" },
+      "img": "https://source.unsplash.com/iPOZf3tQfHA/256x175",
+      "continentId": 5
+    },
+    {
+      "id": 42,
+      "name": "Cairo",
+      "country": { "name": "Egito", "code": "EG" },
+      "img": "https://source.unsplash.com/ONVA6s03hg8/256x175",
+      "continentId": 4
+    },
+    {
+      "id": 43,
+      "name": "Atenas",
+      "country": { "name": "Grécia", "code": "GR" },
+      "img": "https://source.unsplash.com/8Mc6kUy7WK0/256x175",
+      "continentId": 5
+    },
+    {
+      "id": 44,
+      "name": "Orlando",
+      "country": { "name": "Estados Unidos", "code": "US" },
+      "img": "https://source.unsplash.com/vVRGc5JWvIo/256x175",
+      "continentId": 1
+    },
+    {
+      "id": 45,
+      "name": "Moscou",
+      "country": { "name": "Rússia", "code": "RU" },
+      "img": "https://source.unsplash.com/vVRGc5JWvIo/256x175",
+      "continentId": 3
+    },
+    {
+      "id": 46,
+      "name": "Veneza",
+      "country": { "name": "Itália", "code": "IT" },
+      "img": "https://source.unsplash.com/LdivD7NBuYY/256x175",
+      "continentId": 5
+    },
+    {
+      "id": 47,
+      "name": "Madrid",
+      "country": { "name": "Espanha", "code": "ES" },
+      "img": "https://source.unsplash.com/WBGjg0DsO_g/256x175",
+      "continentId": 5
+    },
+    {
+      "id": 48,
+      "name": "HaLong",
+      "country": { "name": "Vietnã", "code": "VN" },
+      "img": "https://source.unsplash.com/maJ7hJBE654/256x175",
+      "continentId": 3
+    },
+    {
+      "id": 49,
+      "name": "Riyadh",
+      "country": { "name": "Arábia Saúdita", "code": "AU" },
+      "img": "https://source.unsplash.com/Uor3RZNHZ9E/256x175",
+      "continentId": 3
+    },
+    {
+      "id": 50,
+      "name": "Dublin",
+      "country": { "name": "Irlanda", "code": "IR" },
+      "img": "https://source.unsplash.com/jLi7xbYnYro/256x175",
       "continentId": 5
     }
   ]

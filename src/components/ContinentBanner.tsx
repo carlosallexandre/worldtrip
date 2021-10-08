@@ -26,7 +26,13 @@ export function ContinentBanner({ children, img }: ContinentBannerProps) {
         zIndex={-1}
       />
 
-      <Container position="absolute" w="100%" h="100%">
+      <Container 
+        position="absolute" 
+        w="100%" 
+        h="100%" 
+        left="50%" 
+        transform="translateX(-50%)"
+      >
         <Heading 
           as="h1"
           fontWeight={600}
