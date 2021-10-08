@@ -68,12 +68,40 @@
     }
   ],
 
-  "citys": [
+  "cities": [
     {
       "id": 1,
       "name": "Londres",
-      "country": "Reino Unido",
-      "imgUrl": "http://source.unsplash.com/{ID}/{RESOLUTION}",
+      "country": { "name": "Reino Unido", "code": "GB" },
+      "img": "https://source.unsplash.com/4ZuEeZDH37E/256x175",
+      "continentId": 5
+    },
+    {
+      "id": 2,
+      "name": "Paris",
+      "country": { "name": "França", "code": "FR" },
+      "img": "https://source.unsplash.com/QAwciFlS1g4/256x175",
+      "continentId": 5
+    },
+    {
+      "id": 3,
+      "name": "Praga",
+      "country": { "name": "Republica Tcheca", "code": "CZ" },
+      "img": "https://source.unsplash.com/t3xftjxc2uU/256x175",
+      "continentId": 5
+    },
+    {
+      "id": 4,
+      "name": "Roma",
+      "country": { "name": "Itália", "code": "IT" },
+      "img": "https://source.unsplash.com/LUdSrJw-BII/256x175",
+      "continentId": 5
+    },
+    {
+      "id": 5,
+      "name": "Amsterdã",
+      "country": { "name": "Holanda", "code": "NL" },
+      "img": "https://source.unsplash.com/KaG9YKPK5a8/256x175",
       "continentId": 5
     }
   ]
